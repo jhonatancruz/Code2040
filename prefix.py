@@ -12,9 +12,6 @@ prefix = jsonReponse['prefix']
 words = jsonReponse['array']
 not_prefix = []
 
-# for i in range(0, len(words)):
-#     if(words[i].startswith(prefix)== False):
-#         not_prefix.append(words[i])
 for item in words:
     if not item.startswith(prefix):
         not_prefix.append(item)
